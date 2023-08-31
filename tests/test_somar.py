@@ -1,7 +1,8 @@
 from app.somar import Soma
 
-def test_soma():
-    v1 = 2
-    v2 = 2
 
-    assert Soma.calc(v1,v2) == 4
+def test_soma():
+    n1 = 2
+    n2 = 2
+
+    assert Soma.calc(n1, n2) == 4
